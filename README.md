@@ -2,11 +2,6 @@
 
 Welcome to my personal portfolio website! This project showcases my skills and projects as a web developer. It's designed to be modern, responsive, and visually appealing — built with a focus on clean UI, smooth interactions, and performance.
 
-## 🌐 Live Demo
-
-[Visit Portfolio Website](https://your-portfolio-link.com)
-
----
 
 ## 🛠️ Tech Stack
 
