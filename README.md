@@ -27,13 +27,7 @@ Welcome to my personal portfolio website! This project showcases my skills and p
 - 📫 Contact form with email integration
 - 📱 Fully responsive design (Mobile + Tablet + Desktop)
 
----
 
-## 📸 Screenshots
-
-> ![](Ss.png)
-
-<img src="my-portfolio\src\assets\Ss.png" width="400" alt="Project Screenshot" />
 
 ---
 
