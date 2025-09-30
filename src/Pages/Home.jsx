@@ -229,7 +229,9 @@ const Hero = () => {
                         <span className='flex justify-items-center items-center border-2 rounded-full px-8 py-3   bg-cyan-700 text-white font-semibold  shadow-md hover:bg-cyan-800 hover:scale-105 transition-all duration-300 ease-in-out'>
 
                             <span className=''>
-                                <button > About Me </button>
+                                <Link to="/about" className="">
+                                    <button >  About Me</button>
+                                </Link>
                             </span>
                             <span className='ps-4'> <FaArrowRightLong /></span>
                         </span>
@@ -302,9 +304,9 @@ const Hero = () => {
                         <span className='text-gray-300 text-2xl md:text-2xl max-w-3xl font-serif'>
                             <span className='flex justify-items-center items-center border-2 rounded-full px-8 py-3  bg-cyan-700 text-white font-semibold  shadow-md hover:bg-cyan-800 hover:scale-105 transition-all duration-300 ease-in-out'>
                                 <span className="">
-                                    <button>
-                                        Load More
-                                    </button>
+                                  <Link to="/projects" className="">
+                                                <button >Load More</button>
+                                            </Link>
 
                                 </span>
                                 <span className='ps-4'> <FaArrowRightLong /></span>

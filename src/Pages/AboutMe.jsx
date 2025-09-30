@@ -58,8 +58,8 @@ const AboutMe = () => {
                             viewport={{ once: true }}
                         >
                             As a Full Stack Web Developer,
-                            focused on <br /> clean architecture and 
-                            optimized performance, <br /> I deliver 
+                            focused on <br /> clean architecture and
+                            optimized performance, <br /> I deliver
                             web solutions that scale with <br />simplicity.
                         </motion.div>
 
@@ -87,7 +87,9 @@ const AboutMe = () => {
                             <span className='flex justify-items-center items-center border-2 rounded-full px-8 py-3   bg-cyan-700 text-white font-semibold  shadow-md hover:bg-cyan-800 hover:scale-105 transition-all duration-300 ease-in-out'>
 
                                 <span className=''>
-                                    <button > Contact Me </button>
+                                    <Link to="/contact" className="">
+                                        <button >  Contact Me</button>
+                                    </Link>
                                 </span>
                                 <span className='ps-4'> <FaArrowRightLong /></span>
                             </span>
