@@ -7,6 +7,9 @@ import Mine from '../assets/sk.jpg';
 import Project1 from '../assets/Project1.png';
 import Project2 from '../assets/Project2.png';
 import Project3 from '../assets/Project3.png';
+import Project4 from '../assets/Project4.png';
+import Project5 from '../assets/Project5.png';
+
 import { Link } from 'react-router-dom';
 
 const Projects = () => {
@@ -28,16 +31,14 @@ const Projects = () => {
                 <div className='m-10 border border-gray-800 rounded-md px-6'>
                     <div className='grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6 my-10 p-12 '>
                         <div className='ps-16'>
-                            <h1 className='text-4xl font-semibold'>Todos App</h1>
+                            <h1 className='text-4xl font-semibold'>Jewellary Website</h1>
                             <h2 className=' py-2 text-xl text-gray-300 border-b border-gray-700'>React</h2>
-                            <p className='mt-5 text-xl'>Developed a dynamic and responsive To-Do application using React.js that allows users to manage daily tasks with ease. Implemented features including task creation, completion toggling, and deletion, all with real-time UI updates through state management. <br />
+                            <p className='mt-5 text-xl'>An online platform designed for users who love timeless and trendy jewellery. It offers a seamless shopping experience with detailed product views, secure checkout, and a modern, elegant UI that highlights the beauty of every piece. <br />
                                 Target Audience: <br />
 
-                                - Students managing assignments, deadlines, and study schedules <br />
-
-                                - Professionals organizing daily tasks, meetings, and project milestones <br />
+                                - Fashion-forward individuals aged 20–40, especially women and young professionals, looking for stylish, affordable, and high-quality jewellery for daily wear and special occasions.
                             </p>
-                            <a href="https://salonikhatri.github.io/Todos-App/">
+                            <a href="https://salonikhatri.github.io">
                                 <button className=' mt-8 rounded-full border border-gray-800 p-4 w-100 text-lg font-medium'>Visit</button>
                             </a>
 
@@ -120,6 +121,73 @@ const Projects = () => {
 
                     </div>
                 </div>
+
+                 <div className='m-10 border border-gray-800 rounded-md px-6'>
+                    <div className='grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6 my-10 p-12'>
+                        <div>
+                            <div className=" w-[650px] m-auto">
+                                <div className="max-w-4xl mx-auto shadow-lg rounded-xl border-2 border-gray-800">
+                                    <img src={Project4} alt="" />
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div className='ps-16'>
+                            <h1 className='text-4xl font-semibold'>Skincare Website</h1>
+                            <h2 className=' py-2 text-xl text-gray-300 border-b border-gray-700'>React, Express, MongoDB</h2>
+                            <p className='mt-3 text-xl'>Discover gentle, effective, and science-backed skincare products made to nourish your skin. From hydrating serums to refreshing cleansers — we bring you self-care that feels as good as it looks. 💧✨<br />
+                                Target Audience: <br />
+
+                                - Young, skincare-conscious users (18–35) seeking clean, effective, and affordable skincare solutions with a smooth online shopping experience.
+
+
+
+                            </p>
+                            <a href="https://salonikhatri.github.io">
+                                <button className=' mt-8 rounded-full border border-gray-800 p-4 w-100 text-lg font-medium'>Visit</button>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                 <div className='mx-10 mt-10 border border-gray-800 rounded-md px-6'>
+                    <div className='grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6 my-10 p-12 '>
+                        <div className='ps-16'>
+                            <h1 className='text-4xl font-semibold'>Notes $ Interview Prep Hub</h1>
+                            <h2 className=' py-2 text-xl text-gray-300 border-b border-gray-700'>React, Express, MongoDB</h2>
+                            <p className='mt-3 text-xl'>A full-stack web application built for students and learners to upload, share, and explore handwritten notes and interview preparation materials in one place. The platform allows users to easily contribute their own study notes and download others’ materials <br />
+                            Target Audience: <br />
+
+                                - 📚 Upload and share handwritten notes in PDF format  <br />
+                                - 🔍 Explore notes uploaded by other learners  <br />
+                                - 🧑‍💻 Role-based login system (User & Admin) <br />
+
+                            </p>
+                            <a href="https://github.com/SaloniKhatri">
+                                <button className=' mt-8 rounded-full border border-gray-800 p-4 w-100 text-lg font-medium'>Visit</button>
+                            </a>
+
+                        </div>
+
+                        <div>
+                            <div className=" w-[650px] m-auto">
+                                <div className="max-w-4xl mx-auto shadow-lg rounded-xl border-2 border-gray-800">
+                                    <img src={Project5} alt="" />
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                
 
             </section>
 

@@ -17,11 +17,18 @@ const projectVariants = {
 };
 
 const techs = [
-    'HTML', 'CSS', 'Bootstrap', 'Tailwind CSS',
-    'JavaScript', 'React', 'Node',
-    'Express', 'MongoDB', 'Python',
-    'VS Code', 'GitHub',
+    { name: "Html", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBd2rMcfI56SZEenhvautbZl_xUsPSHaktNw&s" },
+    { name: "CSS", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJDwBd9LoQzBAZigXXxzQ0kKn6TwyrE0Y7Rg&s" },
+    { name: "Bootstrap", icon: "https://camo.githubusercontent.com/ecd695fb1ffadab6633f9fcdffaeebc58f3cca722260f0dec7dc607bd9d0e740/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e322f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67" },
+    { name: "Tailwind CSS", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png" },
+    { name: "React", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207" },
+    { name: "Node.js", icon: "https://cdn-icons-png.flaticon.com/512/919/919825.png" },
+    { name: "Express", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRykNi4-zfKLf0bRRdPOEjnqB-rpXHe1TXRxA&s" },
+    { name: "MongoDB", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxscOaGYIFYKsrgioo7pzV7YpbpkUOJgDe2A&s" },
+    { name: "Python", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png" },
+    { name: "Github", icon: "https://img.icons8.com/p1em/1200/github.jpg" },
 ];
+
 
 const itemVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -264,17 +271,7 @@ const Hero = () => {
                     </span>
                 </motion.span>
 
-                <span className=''>
-                    <span className='px-22 font-bold  max-w-3xl font-serif'>
-                        <span className='text-white flex justify-between items-center border-b border-gray-800 p-15'>
-
-                            <span className='text-4xl md:text-4xl'>
-                                <a href=''>Todos App </a>
-                            </span>
-                            <span className='text-xl md:text-xl'> Developed a dynamic and responsive To-Do application using React.js <br />that allows users to manage daily tasks with ease. <br /> Implemented features including task creation, completion toggling, <br /> and deletion, all with real-time UI updates through state management.</span>
-                        </span>
-                    </span>
-                </span>
+                
                 <span className=''>
                     <span className='px-22 font-bold  max-w-3xl font-serif'>
                         <span className='text-white flex justify-between items-center border-b border-gray-800 p-15'>
@@ -298,15 +295,37 @@ const Hero = () => {
                         </span>
                     </span>
                 </span>
+                <span className=''>
+                    <span className='px-22 font-bold  max-w-3xl font-serif'>
+                        <span className='text-white flex justify-between items-center border-b border-gray-800 p-15'>
+
+                            <span className='text-4xl md:text-4xl'>
+                                <a href=''>Skincare Website </a>
+                            </span>
+                            <span className='text-xl md:text-xl'> Developed a dynamic and responsive Skincare website using <br /> React.js, Express and Mongodb to showcase skincare products. <br /> Focused on component-based architecture, interactive UI, <br /> and smooth user navigation.</span>
+                        </span>
+                    </span>
+                </span>
+                <span className=''>
+                    <span className='px-22 font-bold  max-w-3xl font-serif'>
+                        <span className='text-white flex justify-between items-center border-b border-gray-800 p-15'>
+
+                            <span className='text-4xl md:text-4xl'>
+                                <a href=''>Notes & Interview Prep Hub </a>
+                            </span>
+                            <span className='text-xl md:text-xl'> This is built for students and learners to upload, share, <br /> and explore handwritten notes and interview preparation <br /> materials  in one place. The platform allows users <br /> to easily  contribute their  own study notes and download <br /> others’ materials.</span>
+                        </span>
+                    </span>
+                </span>
 
                 <div className='bg-black text-white p-8'>
                     <span className='flex justify-center mt-8'>
                         <span className='text-gray-300 text-2xl md:text-2xl max-w-3xl font-serif'>
                             <span className='flex justify-items-center items-center border-2 rounded-full px-8 py-3  bg-cyan-700 text-white font-semibold  shadow-md hover:bg-cyan-800 hover:scale-105 transition-all duration-300 ease-in-out'>
                                 <span className="">
-                                  <Link to="/projects" className="">
-                                                <button >Load More</button>
-                                            </Link>
+                                    <Link to="/projects" className="">
+                                        <button >Load More</button>
+                                    </Link>
 
                                 </span>
                                 <span className='ps-4'> <FaArrowRightLong /></span>
@@ -317,30 +336,6 @@ const Hero = () => {
                 </div>
             </div>
 
-            {/* <div className=" bg-black">
-                <h2 className="text-4xl font-bold text-center mb-5 text-pink-700 font-serif">My Tech Stack</h2>
-                <div className='text-4xl text-center p-2 '>
-                    <span className='text-white'>My expertise spans a diverse range of <span className='text-yellow-200'>technologies</span>, enabling me to deliver <br />
-                        comprehensive and <span className=''>cutting-edge solutions</span> across various platforms.
-                    </span>
-
-                </div>
-                <div className="grid grid-cols-1 sm:grid-cols-5 lg:grid-cols-12 max-w-8xl ms-16 py-26 text-purple-400 text-2xl">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>Bootstrap</span>
-                    <span>Tailwind CSS</span>
-                    <span>JavaScript</span>
-                    <span>React</span>
-                    <span>Node</span>
-                    <span>Express</span>
-                    <span>MongoDB</span>
-                    <span>Python</span>
-                    <span>VS Code</span>
-                    <span>Github</span>
-
-                </div>
-            </div> */}
             <div className="bg-black py-16 px-4 ">
                 {/* Heading */}
                 <motion.h2
@@ -366,21 +361,29 @@ const Hero = () => {
                 </motion.div>
 
                 {/* Tech Grid */}
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 max-w-6xl mx-auto text-purple-300 text-center text-xl font-semibold">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-10 max-w-6xl mx-auto text-center">
                     {techs.map((tech, i) => (
                         <motion.div
-                            key={tech}
-                            className="p-4 border border-gray-700 rounded-lg hover:bg-purple-800 hover:text-white transition-all duration-300"
+                            key={tech.name}
                             custom={i}
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true }}
                             variants={itemVariants}
+                            className="flex flex-col items-center justify-center group"
                         >
-                            {tech}
+                            <img
+                                src={tech.icon}
+                                alt={tech.name}
+                                className="w-16 h-16 object-contain transition-transform duration-500 group-hover:scale-110"
+                            />
+                            <p className="mt-3 text-white text-lg font-semibold group-hover:text-white transition-colors duration-300">
+                                {tech.name}
+                            </p>
                         </motion.div>
                     ))}
                 </div>
+
             </div>
 
         </>
